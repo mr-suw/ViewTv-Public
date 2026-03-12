@@ -1,4 +1,0 @@
-module tvhclient_lib {
-    umbrella "/Users/kai/ws/proj/tvh-appletv/ViewTv/Licenses/src/tvheadend-ios-lib/package/tvheadend-ios-lib"
-    export *
-}
