@@ -1,0 +1,5 @@
+# Generated build artifacts inside the public source snapshot
+Licenses/src/tvheadend-ios-lib/package/.build/
+
+# Finder metadata
+.DS_Store
