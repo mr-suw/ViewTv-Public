@@ -1,0 +1,6 @@
+199eb25 feat: integrate tvheadend-ios-lib as local SPM package - Update project.pbxproj: SPM relativePath and HEADER_SEARCH_PATHS - Remove CocoaPods artifacts (Podfile, Pods/) - Add .build/ to .gitignore
+e1627a0 del unnecessary podspec file
+964fffe fix(1-0): UIKit conditional guards for swift build compatibility
+f39740f Fix xcscheme
+4ab9cf1 feat(stories): sync
+489492c Implement Story 6.2 EPG detail overlay actions

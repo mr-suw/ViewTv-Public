@@ -1,0 +1,19 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#ifdef __TVOS_AVAILABLE
+#define DEVICE_IS_TVOS YES
+#else
+#define DEVICE_IS_TVOS NO
+#endif
+
+//#define TESTING
+#ifdef __OBJC__
+    #import <Availability.h>
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+    #import "NSDateFormatter+TVH.h"
+#endif

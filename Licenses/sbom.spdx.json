@@ -1,0 +1,61 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "ViewTV-third-party-sbom",
+  "documentNamespace": "https://viewtv.local/sbom/2026-03-12/viewtv-third-party-sbom",
+  "creationInfo": {
+    "created": "2026-03-12T00:00:00Z",
+    "creators": [
+      "Kai Richter"
+    ]
+  },
+  "packages": [
+    {
+      "name": "tvheadend-ios-lib",
+      "SPDXID": "SPDXRef-Package-tvheadend-ios-lib",
+      "versionInfo": "local-package-at-240b1631c181eaf9e0d00a70a881d9c72cbf0468",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MPL-2.0",
+      "licenseDeclared": "MPL-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:generic/tvheadend-ios-lib@240b1631c181eaf9e0d00a70a881d9c72cbf0468"
+        }
+      ]
+    },
+    {
+      "name": "VLCKitSPM",
+      "SPDXID": "SPDXRef-Package-VLCKitSPM",
+      "versionInfo": "3.6.0",
+      "downloadLocation": "git+https://github.com/tylerjonesio/vlckit-spm@e932bbd488872fdb74f6654d28c2f291eae03daf",
+      "filesAnalyzed": false,
+      "licenseConcluded": "LGPL-2.1-only",
+      "licenseDeclared": "LGPL-2.1-only",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swift/github.com/tylerjonesio/vlckit-spm@3.6.0"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-tvheadend-ios-lib"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-VLCKitSPM"
+    }
+  ]
+}
