@@ -44,6 +44,40 @@
           "referenceLocator": "pkg:swift/github.com/tylerjonesio/vlckit-spm@3.6.0"
         }
       ]
+    },
+    {
+      "name": "AMSMB2",
+      "SPDXID": "SPDXRef-Package-AMSMB2",
+      "versionInfo": "3.0.0",
+      "downloadLocation": "git+https://github.com/amosavian/AMSMB2@fbb1d37880b7e1d7504c6a6dc9371c10ff932bc9",
+      "filesAnalyzed": false,
+      "licenseConcluded": "LGPL-2.1-only",
+      "licenseDeclared": "LGPL-2.1-only",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swift/github.com/amosavian/AMSMB2@3.0.0"
+        }
+      ]
+    },
+    {
+      "name": "TMDb",
+      "SPDXID": "SPDXRef-Package-TMDb",
+      "versionInfo": "17.0.0",
+      "downloadLocation": "git+https://github.com/adamayoung/TMDb.git@6d8185a898fd4817e7a85f5981c422e15c457d8e",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swift/github.com/adamayoung/TMDb@17.0.0"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -56,6 +90,16 @@
       "spdxElementId": "SPDXRef-DOCUMENT",
       "relationshipType": "DESCRIBES",
       "relatedSpdxElement": "SPDXRef-Package-VLCKitSPM"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-AMSMB2"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-TMDb"
     }
   ]
 }

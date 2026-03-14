@@ -29,6 +29,32 @@ This package is distributed as part of a larger proprietary work. The tvheadend-
 
 VLCKitSPM packages the VLCKit binary framework for Apple platforms. The VLCKit library remains covered by the LGPL 2.1.
 
+### AMSMB2
+
+- Component: AMSMB2
+- Type: Remote Swift Package Manager package
+- Upstream package repository: https://github.com/amosavian/AMSMB2
+- Resolved version: 3.0.0
+- Resolved revision: fbb1d37880b7e1d7504c6a6dc9371c10ff932bc9
+- License: GNU Lesser General Public License 2.1
+- License file: VLCKit-LGPL-2.1.txt
+- Source availability details: AMSMB2-source-offer.md
+
+AMSMB2 wraps libsmb2 for SMB2 or SMB3 file operations and is linked dynamically in this app distribution to stay aligned with the upstream LGPL 2.1 guidance.
+
+### TMDb
+
+- Component: TMDb
+- Type: Remote Swift Package Manager package
+- Upstream package repository: https://github.com/adamayoung/TMDb.git
+- Resolved version: 17.0.0
+- Resolved revision: 6d8185a898fd4817e7a85f5981c422e15c457d8e
+- License: Apache License 2.0
+- License file: Apache-2.0.txt
+- Source availability details: TMDb-source-offer.md
+
+TMDb is used as the package-backed movie metadata client for online enrichment. The package remains covered by the Apache License 2.0.
+
 ## Notes
 
 - The application's own commercial license applies only to original application code that is not covered by third-party copyleft licenses.
